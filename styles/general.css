@@ -5,24 +5,30 @@
 }
 
 /* Margenes */
-
-/* Rellenos */
-
-/* Bordes */
-
-/* Estilos */
-
-/* Componentes */
-
+body,
+h1,
+h2,
+h3,
+h4,
+header p,
 .menu{
-    display: flex;
-    list-style: none;
+    margin: 0;
+}
+/* Rellenos */
+.menu{
     padding: 0;
 }
-
-.menu a{
-    display: block;
-    min-width: 100px;
-    padding: 5px;
-    border: 10px solid #333;
+/* Bordes */
+iframe{
+    border: 0;
 }
+/* Estilos */
+#header a,
+#footer a{
+    text-decoration: none;
+}
+.menu{
+    list-style: none;
+}
+/* Componentes */
+

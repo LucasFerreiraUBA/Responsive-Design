@@ -1,0 +1,28 @@
+/* Regla Universal */
+*{
+    box-sizing: border-box;
+    font-family: 'Raleway', 'calibri' , sans-serif;
+}
+
+/* Margenes */
+
+/* Rellenos */
+
+/* Bordes */
+
+/* Estilos */
+
+/* Componentes */
+
+.menu{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.menu a{
+    display: block;
+    min-width: 100px;
+    padding: 5px;
+    border: 10px solid #333;
+}

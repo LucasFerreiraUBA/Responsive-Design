@@ -1,0 +1,41 @@
+#header{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align:center ;
+}
+.header{
+    padding: min(50%,270px) 1rem;
+    font-size: min(calc(2vw + .5rem),3rem);
+    color: #eee;
+    background:
+    /* millenium falcon */
+    url(../assets/bg/bg_milenium_falcon.png) 20% 50%/min(50%,800px) no-repeat,
+    /* death star */
+    url(../assets/bg/bg_death_star.png) 80% 10%/min(20%,300px) no-repeat,
+    /* galaxy */
+    #012 url('../assets/bg/bg_galaxy.jpg') center/cover;
+}
+.header h1,
+.header span{
+    text-shadow: 0 0 .5rem,
+        -.1rem -.1rem #ca3,
+        -.1rem .1rem #ca3,
+        .1rem .1rem #ca3,
+        .1rem -.1rem #ca3;
+    letter-spacing: .3rem;
+}
+.menu {
+    display: flex;
+    padding: 1rem;
+    background-color: #284;
+}
+.menu a{
+    max-width: 300px;/**/
+    padding: .5rem;
+    color:#ac6;
+}
+.menu a.active,
+.menu a:hover{
+    color: #dfc;
+    text-shadow: 0 0 .5rem #efc;
+}
